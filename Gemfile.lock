@@ -45,6 +45,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    annotate (2.7.4)
+      activerecord (>= 3.2, < 6.0)
+      rake (>= 10.4, < 13.0)
     arel (9.0.0)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
@@ -249,6 +252,9 @@ GEM
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     ipaddress (0.8.3)
+    jbuilder (2.7.0)
+      activesupport (>= 4.2.0)
+      multi_json (>= 1.2)
     json (2.1.0)
     jwt (2.1.0)
     listen (3.1.5)
@@ -370,12 +376,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   bootsnap (>= 1.1.0)
   byebug
   carrierwave
   figaro
   fog
   fog-aws
+  jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mini_magick
   pg (>= 0.18, < 2.0)

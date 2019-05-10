@@ -12,7 +12,7 @@ class ReceiptUrlUploader < CarrierWave::Uploader::Base
   end
 
   def filename
-    "#{model.id}.#{file.extension}" if original_filename.present?
+    "#{DateTime.now.to_i}.#{file.extension}" if original_filename.present?
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:

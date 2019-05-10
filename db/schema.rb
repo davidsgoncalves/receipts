@@ -21,6 +21,11 @@ ActiveRecord::Schema.define(version: 2019_05_08_023207) do
     t.integer "installments"
     t.boolean "perpetual"
     t.string "receipt"
+    t.boolean "paid"
+    t.string "doc"
+    t.date "pay_day"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

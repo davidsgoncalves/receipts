@@ -7,6 +7,10 @@ class CreateBills < ActiveRecord::Migration[5.2]
       t.boolean :perpetual
       t.string :receipt
       t.boolean :paid
+      t.string :doc
+      t.date :pay_day
+
+      t.timestamps
     end
   end
 end
