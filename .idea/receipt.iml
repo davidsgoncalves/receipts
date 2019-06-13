@@ -125,6 +125,7 @@
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v3.0.3, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.12.1, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.7, rbenv: 2.6.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-cors (v1.0.2, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v1.1.0, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.3, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, rbenv: 2.6.0) [gem]" level="application" />
@@ -140,6 +141,7 @@
     <orderEntry type="library" scope="PROVIDED" name="retriable (v3.1.2, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="signet (v0.11.0, rbenv: 2.6.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_enum (v2.3.2, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.2, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, rbenv: 2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.2, rbenv: 2.6.0) [gem]" level="application" />
